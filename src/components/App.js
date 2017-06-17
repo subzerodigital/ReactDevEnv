@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Header from './common/Header';
 
 class App extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid">
-				<nav>header here</nav>
+				<Header/>
 				{this.props.children}
 			</div>
 		);
