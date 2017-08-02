@@ -11,7 +11,8 @@ import {Provider} from 'react-redux';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
-const store = configStore();
+//const store = configStore({courses: [{title: 'shit'}, {title: 'shit2'}]});
+const store = configStore({courses: [{title: 'shit'}, {title: 'shit2'}]});
 
 render(
 	<Provider store={store}>
